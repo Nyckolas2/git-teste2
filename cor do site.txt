@@ -1,0 +1,12 @@
+cores do meu site portifólio
+
+
+#BBA2F5-roxo bem clarinho
+#6589B8-azul acinzentado claro
+#212122-preto
+#7B309F-roxo
+#271C76-azul escuro
+
+-fontes
+https://fonts.google.com/specimen/Poppins
+

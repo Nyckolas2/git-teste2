@@ -1,0 +1,141 @@
+/* importando uma fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    
+body{ /* editando a cor do fundo e as fontes do googlefonts */
+    background-color: #212122;
+    font-family: 'Poppins', sans-serif;
+}
+.section{ /* tamanho de cada sessão da página */
+    height: 630px;
+}
+
+.lista{ /*  editando a lista de links*/
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+ul { /* editando  lista */
+    position:relative;
+    list-style-type: none;
+    padding: 18px;
+    gap: 25PX;
+    right: 0;
+    top: 0;
+}
+
+li a{ /* editando links  e colocando uma aniumação*/
+    text-decoration: none;
+    color: #7B309F;
+    transition: color 0.3s;
+    animation: blink 0.5s infinite alternate;
+    
+}
+
+a:hover{ /* editando links  e colocando uma animação*/
+    color: #BBA2F5;
+    font-size: 30px;
+
+}
+
+#titulo{ /* editando o titulo da capa*/
+    color: #7B309F;
+    padding: 4%;
+    font-size: 3rem;
+    margin-right: 150px;
+}
+span{ /* editando uma parte do título da capa*/
+    font-size: 1.3rem;
+}
+.imgtitulo{ /* editando o vetor/ que estava na capa*/
+    transform: scaleX(-1);
+    top: 0;
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    margin-right: 180px;
+}
+.espacotitulo{ /* espaço onde ficara o título*/
+    display: flex;
+    margin-top: 90px;
+    margin-left: 5%;
+    justify-content: space-around;
+}
+
+.textoformacao{
+    color:#BBA2F5
+}
+
+.formatitulo{ /* uma nova classe para os titulos que não sejam da capa terem a mesma formatação sem afetar a capa*/
+    font-size: 3rem;
+    color: #7B309F;
+    padding: 10px;
+    margin:30px ;
+}
+    
+.imgsobre{ /* editando a imagem da pagina sobre*/
+    width: 26%;
+    height: 26%;
+    border-radius: 5%;  
+    
+}
+.container{ /* alinhando o espaço da onde ficara os elementos*/
+    display: flex;
+    margin-top:45px;
+    margin-left: 4%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.formapara{
+    margin-right: 50px;
+    
+}
+
+.tamanhotexto{
+    width: 30%;
+}
+
+.img_cursos{/* alinhando as imagens*/
+        margin-right: 10%;
+    
+}
+
+.ajuste{ /* alinhando outro elemento*/
+    margin-bottom: 60px;
+    
+}
+
+.imgrede{ /* editando e alinhando as fotos das redes sociais em contatos*/
+    height: 70px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.containerrede{ /* espaço onde ficara as imagens */
+    margin-left: 25%;
+    gap: 150px;
+    padding: 4%;
+    
+}
+.siteleo{   /* editando as dimenções da imagem do projeto da aula pratica*/
+    width: 45%;
+    height: 55%;
+    margin-left: 60 px;
+}
+#contato{
+    height: 500px;
+}
+#projetos{
+    height: 700px;
+}
+
+footer{
+    background-color: hsl(281, 54%, 41%, 10%);
+    margin-bottom:0 ;
+}
+#entreemctt{
+    text-align: center;
+
+
+}
